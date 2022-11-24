@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculation"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="400" Width="500">
     <Grid>
-        
+        <Button x:Name="vivod" Content="Вывод" HorizontalAlignment="Left" Margin="200,204,0,0" VerticalAlignment="Top" Height="30" Width="90" FontSize="18" Background="#FF97ABE8" Click="vivod_Click"/>
+        <TextBox x:Name="text_a" HorizontalAlignment="Left" Margin="50,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="text_b" HorizontalAlignment="Left" Margin="330,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="a" HorizontalAlignment="Left" Margin="92,104,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="b" HorizontalAlignment="Left" Margin="384,105,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="otvet" Content="" HorizontalAlignment="Left" Margin="330,249,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="deistvie" HorizontalAlignment="Left" Margin="185,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Выбор действия" HorizontalAlignment="Left" Margin="190,103,0,0" VerticalAlignment="Top" FontSize="14"/>
+
     </Grid>
 </Window>
