@@ -40,5 +40,25 @@ namespace Calculation
         {
             return a / b;
         }
+
+        private void vivod_Click(object sender, RoutedEventArgs e)
+        {
+            if(deistvie.Text=="+")
+            {
+                otvet.Content = Sum(Convert.ToInt32(text_a.Text), Convert.ToInt32(text_b.Text));
+            }
+            if (deistvie.Text == "-")
+            {
+                otvet.Content = Minus(Convert.ToInt32(text_a.Text), Convert.ToInt32(text_b.Text));
+            }
+            if (deistvie.Text == "*")
+            {
+                otvet.Content = Ymnozenie(Convert.ToInt32(text_a.Text), Convert.ToInt32(text_b.Text));
+            }
+            if (deistvie.Text == "/")
+            {
+                otvet.Content = Delenie(Convert.ToInt32(text_a.Text), Convert.ToInt32(text_b.Text));
+            }
+        }
     }
 }
