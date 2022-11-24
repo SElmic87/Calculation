@@ -41,6 +41,10 @@ namespace Calculation
             return a / b;
         }
 
+        private void privet()
+        {
+            otvet.Content = "привет";
+        }
         private void vivod_Click(object sender, RoutedEventArgs e)
         {
             if(deistvie.Text=="+")
