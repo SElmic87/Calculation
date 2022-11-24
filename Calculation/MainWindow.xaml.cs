@@ -32,5 +32,13 @@ namespace Calculation
         {
             return a - b;
         }
+        public int Ymnozenie(int a, int b)
+        {
+            return a * b;
+        }
+        public double Delenie(int a, int b)
+        {
+            return a / b;
+        }
     }
 }
